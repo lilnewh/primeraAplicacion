@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejemplo de Caja en Bloque</title>
+<style>
+  /* Estilos para el elemento principal */
+  .contenedor {
+    width: 80%; 
+    margin: 20px auto; 
+    background-color: #f0f0f0; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+  }
+
+  /* Estilos para los elementos dentro del contenedor */
+  .bloque {
+    background-color: #ddd;
+    margin-bottom: 10px; 
+    padding: 15px;
+    border: 1px solid #999;
+  }
+
+  /* Estilos para el primer bloque */
+  .primer-bloque {
+    color: navy; 
+  }
+
+  /* Estilos para el segundo bloque */
+  .segundo-bloque {
+    font-style: italic; 
+  }
+</style>
+</head>
+<body>
+
+  <div class="contenedor">
+    <div class="bloque primer-bloque">
+      Este es el primer bloque.  Observa cómo ocupa todo el ancho disponible y se separa del siguiente bloque.
+    </div>
+
+    <div class="bloque segundo-bloque">
+      Este es el segundo bloque.  También es un bloque, pero con un estilo diferente.
+    </div>
+
+    <div class="bloque">
+      Y este es un tercer bloque, sin estilos específicos adicionales.
+    </div>
+  </div>
+
+</body>
+</html>
