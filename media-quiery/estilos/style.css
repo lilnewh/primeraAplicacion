@@ -1,0 +1,24 @@
+img{
+display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+@media(min-width:650px){
+    body{
+        background-color: #141031;
+
+    }
+}
+
+@media(max-width:650px){
+    body{
+        background-color: rgb(16, 29, 87)
+    }
+    
+     .img{
+            width: 80%;
+        }
+}
+
