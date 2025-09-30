@@ -1,0 +1,65 @@
+body {
+    background-color: #06061F;
+    color: white;
+    padding: 0 auto;
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.inicio {
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #253842;
+}
+
+img {
+    height: 200px;
+    width: 170px;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.estudios {
+    border-top: 3px solid #979ba3;
+}
+
+div {
+    padding: 5px;
+}
+
+.vivienda {
+    border-top: 3px solid #979ba3;
+}
+
+.a_serca {
+    border-top: 3px solid #979ba3;
+}
+
+
+a{
+    padding: 5px;
+}
+
+.link-github{
+border-right: 3px solid #979ba3;
+color: white;
+}
+
+.link-instagram{
+color: white;
+}
+
+.sub-titulo{
+    border-top: 3px solid #979ba3;
+    color: black;
+    padding-top: 5px;
+}
